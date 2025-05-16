@@ -1,0 +1,38 @@
+/* Background Styling */
+.stApp {
+    background-image: url('https://wallpaperaccess.com/full/17491134.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Title Container */
+.main-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.main-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Brain Sticker Animation */
+.sticker {
+    font-size: 100px;
+    animation: shrinkSticker 4s ease-in-out forwards;
+}
+
+@keyframes shrinkSticker {
+    0% {
+        font-size: 500px;
+        transform: translateY(0px);
+    }
+    100% {
+        font-size: 80px;
+        transform: translateY(5px);
+    }
+}

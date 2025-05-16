@@ -12,7 +12,7 @@ Features
 -  Streamlit-powered clean UI for easy interaction
 
 How to use:
-    -Run the app:
+    - Run the app:
         Open a terminal and run:    streamlit run streamlit_app.py
     - Use the Interface
           Once the app opens in your browser:

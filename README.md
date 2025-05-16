@@ -10,3 +10,18 @@ Features
 -  View facts at each reasoning cycle (step-by-step tracing)
 -  Input a custom goal for both algorithms
 -  Streamlit-powered clean UI for easy interaction
+
+How to use:
+    -Run the app:
+        Open a terminal and run:    streamlit run streamlit_app.py
+    - Use the Interface
+          Once the app opens in your browser:
+              - Upload your rules.txt and facts.txt files.
+              - Choose the inference algorithm from the dropdown:
+                      - Forward Chaining: Automatically infers all possible facts from the initial ones.
+                      - Backward Chaining: Starts from a goal and tries to prove it.
+              - Enter a goal to check
+              - View the output:
+                    - Inferred facts
+                    - Whether the goal was reached
+                    - Step-by-step reasoning 
